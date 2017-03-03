@@ -80,14 +80,14 @@
 		DC34A7D4199D67C80001BD08 /* SCSessionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSessionTableViewCell.m; sourceTree = "<group>"; };
 		DC34A7D6199D695F0001BD08 /* SCRecordSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRecordSessionManager.h; sourceTree = "<group>"; };
 		DC34A7D7199D695F0001BD08 /* SCRecordSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRecordSessionManager.m; sourceTree = "<group>"; };
-		DC7F370818FC2A0D00D54901 /* SCRecorderExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCRecorderExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7F370818FC2A0D00D54901 /* PLShortVideoKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLShortVideoKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7F370B18FC2A0D00D54901 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC7F370D18FC2A0D00D54901 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DC7F370F18FC2A0D00D54901 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DC7F371318FC2A0D00D54901 /* SCRecorderExamples-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCRecorderExamples-Info.plist"; sourceTree = "<group>"; };
+		DC7F371318FC2A0D00D54901 /* PLShortVideoKitDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PLShortVideoKitDemo-Info.plist"; sourceTree = "<group>"; };
 		DC7F371518FC2A0D00D54901 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC7F371718FC2A0D00D54901 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DC7F371918FC2A0D00D54901 /* SCRecorderExamples-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCRecorderExamples-Prefix.pch"; sourceTree = "<group>"; };
+		DC7F371918FC2A0D00D54901 /* PLShortVideoKitDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PLShortVideoKitDemo-Prefix.pch"; sourceTree = "<group>"; };
 		DC7F372318FC2A0D00D54901 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DC7F372A18FC2A0D00D54901 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DC7F374018FC2AEB00D54901 /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
@@ -182,7 +182,7 @@
 		DC7F370918FC2A0D00D54901 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC7F370818FC2A0D00D54901 /* SCRecorderExamples.app */,
+				DC7F370818FC2A0D00D54901 /* PLShortVideoKitDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,10 +236,10 @@
 				DC7F376118FC2B0300D54901 /* Record-Normal-icon.png */,
 				DC7F376218FC2B0300D54901 /* Record-Pressed-icon.png */,
 				DC7F376318FC2B0300D54901 /* Stop-Normal-Red-icon.png */,
-				DC7F371318FC2A0D00D54901 /* SCRecorderExamples-Info.plist */,
+				DC7F371318FC2A0D00D54901 /* PLShortVideoKitDemo-Info.plist */,
 				DC7F371418FC2A0D00D54901 /* InfoPlist.strings */,
 				DC7F371718FC2A0D00D54901 /* main.m */,
-				DC7F371918FC2A0D00D54901 /* SCRecorderExamples-Prefix.pch */,
+				DC7F371918FC2A0D00D54901 /* PLShortVideoKitDemo-Prefix.pch */,
 				90A0D7DD1BC7367A008F1BB0 /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
@@ -297,9 +297,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC7F370718FC2A0D00D54901 /* SCRecorderExamples */ = {
+		DC7F370718FC2A0D00D54901 /* PLShortVideoKitDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC7F373A18FC2A0D00D54901 /* Build configuration list for PBXNativeTarget "SCRecorderExamples" */;
+			buildConfigurationList = DC7F373A18FC2A0D00D54901 /* Build configuration list for PBXNativeTarget "PLShortVideoKitDemo" */;
 			buildPhases = (
 				DC7F370418FC2A0D00D54901 /* Sources */,
 				DC7F370518FC2A0D00D54901 /* Frameworks */,
@@ -309,9 +309,9 @@
 			);
 			dependencies = (
 			);
-			name = SCRecorderExamples;
+			name = PLShortVideoKitDemo;
 			productName = SCRecorderExamples;
-			productReference = DC7F370818FC2A0D00D54901 /* SCRecorderExamples.app */;
+			productReference = DC7F370818FC2A0D00D54901 /* PLShortVideoKitDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -324,11 +324,11 @@
 				LastUpgradeCheck = 0510;
 				TargetAttributes = {
 					DC7F370718FC2A0D00D54901 = {
-						DevelopmentTeam = UVZ7B46BL3;
+						DevelopmentTeam = GDFHW66V92;
 					};
 				};
 			};
-			buildConfigurationList = DC7F370318FC2A0D00D54901 /* Build configuration list for PBXProject "SCRecorderExamples" */;
+			buildConfigurationList = DC7F370318FC2A0D00D54901 /* Build configuration list for PBXProject "PLShortVideoKitDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -347,7 +347,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				DC7F370718FC2A0D00D54901 /* SCRecorderExamples */,
+				DC7F370718FC2A0D00D54901 /* PLShortVideoKitDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -515,22 +515,22 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = UVZ7B46BL3;
+				DEVELOPMENT_TEAM = GDFHW66V92;
 				ENABLE_BITCODE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sources/SCRecorderExamples-Prefix.pch";
+				GCC_PREFIX_HEADER = "Sources/PLShortVideoKitDemo-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					../../Library/Sources/,
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
-				INFOPLIST_FILE = "Sources/SCRecorderExamples-Info.plist";
+				INFOPLIST_FILE = "Sources/PLShortVideoKitDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stm.SCRecorderExamples;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qbox.PLShortVideoKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -546,22 +546,22 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = UVZ7B46BL3;
+				DEVELOPMENT_TEAM = GDFHW66V92;
 				ENABLE_BITCODE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sources/SCRecorderExamples-Prefix.pch";
+				GCC_PREFIX_HEADER = "Sources/PLShortVideoKitDemo-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					../../Library/Sources/,
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
-				INFOPLIST_FILE = "Sources/SCRecorderExamples-Info.plist";
+				INFOPLIST_FILE = "Sources/PLShortVideoKitDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stm.SCRecorderExamples;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qbox.PLShortVideoKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -572,7 +572,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DC7F370318FC2A0D00D54901 /* Build configuration list for PBXProject "SCRecorderExamples" */ = {
+		DC7F370318FC2A0D00D54901 /* Build configuration list for PBXProject "PLShortVideoKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC7F373818FC2A0D00D54901 /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC7F373A18FC2A0D00D54901 /* Build configuration list for PBXNativeTarget "SCRecorderExamples" */ = {
+		DC7F373A18FC2A0D00D54901 /* Build configuration list for PBXNativeTarget "PLShortVideoKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC7F373B18FC2A0D00D54901 /* Debug */,
